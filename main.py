@@ -55,7 +55,7 @@ async def startprivate(client, message):
             ]
         ]
     )
-    welcomed = f"Hey <b>{message.from_user.first_name}</b>\nThanks For Using Me. Join @TvSeriesLand4U.\n\n 🎚 use /settings"
+    welcomed = f"Hey <b>{message.from_user.first_name}</b>\nThanks For Using Me.\n\n Join @TvSeriesLand4U"
     await message.reply_text(welcomed, reply_markup=joinButton)
     raise StopPropagation
 
